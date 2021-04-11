@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
 
-const kApiKey = '2384004d-c70d-43f2-b362-91cb0da34c06';
+const kApiKey = '';
 const kBaseUrl = 'https://content.guardianapis.com/search?page-size=50&tag=technology/technology&show-fields=thumbnail,body&api-key='+kApiKey;
 
 const kServerError = 'Failed to connect to the server. Try again later';
